@@ -134,6 +134,13 @@
 
 # Escape Sequence
 
-weather = "It\'s \"kind of\" sunny "
+# weather = "It\'s \"kind of\" sunny "
+#
+# print(weather)
 
-print(weather)
+# formatted strings
+
+name = 'SungOh'
+age = 55
+
+print('Hi ' + name + '. You are ' + age + ' years old')

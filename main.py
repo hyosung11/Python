@@ -140,8 +140,8 @@
 
 # formatted strings
 
-name = 'SungOh'
-age = 4
+# name = 'SungOh'
+# age = 4
 
 # 1. string concatenation
 # print('Hi ' + name + '. You are ' + str(age) + ' years old')
@@ -152,14 +152,27 @@ age = 4
 # 3. .format()
 
 ## String Indexes
-selfish = '01234567'
-        # 01234567
-
-# [start:stop:stepover]
-print(selfish[1:8:2]) # => 1357
-
-# start from end of string
-print(selfish[-1]) # => 7
-
+# selfish = '01234567'
+#         # 01234567
 #
-print(selfish[::-2]) # => 7531
+# # [start:stop:stepover]
+# print(selfish[1:8:2]) # => 1357
+#
+# # start from end of string
+# print(selfish[-1]) # => 7
+#
+# #
+# print(selfish[::-2]) # => 7531
+
+# Immutability
+# string = 'Desirable Difficulties'
+#
+# string[0] = 'love'
+#
+# print(string) # => TypeError: 'str' object does not support item assignment
+
+string = 'Desirable Difficulties'
+
+string = 'I love ' + string
+
+print(string)

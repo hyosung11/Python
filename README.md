@@ -91,4 +91,11 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 - `.format()` still used from Python 2
 
 ### String Indexes
-- access differnt parts of a string by its index
+- access different parts of a string by its index
+
+### Immutability
+- once created, you cannot reassign part of a string
+
+### Built-In Functions + Methods
+- [Built-in Functions](https://docs.python.org/3/library/functions.html)
+- [Methods](https://www.w3schools.com/python/python_ref_string.asp)

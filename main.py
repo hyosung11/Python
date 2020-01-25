@@ -255,10 +255,96 @@
 # print(amazon_cart)
 
 # Matrix
-matrix = [
-    [1,5,1],
-    [0,1,0],
-    [1,0,1]
-]
+# matrix = [
+#     [1,5,1],
+#     [0,1,0],
+#     [1,0,1]
+# ]
+#
+# print(matrix[0][1])
 
-print(matrix[0][1])
+# List Methods
+# basket = [1,2,3,4,5]
+
+# ADDING
+# new_list = basket.append(100)
+# print(basket.append(100))
+# print(basket)
+# print(new_list)
+
+# basket.append(100)
+# new_list = basket
+# print(basket)
+# print(new_list)
+
+# insert
+# basket.insert(1, 100)
+# new_list = basket
+# print(basket)
+# print(new_list)
+
+# extend
+# basket.extend([100, 101])
+# new_list = basket
+# # print(basket)
+# print(new_list)
+
+# REMOVING
+
+# pop - pops last item by default or by index
+# basket.pop()
+# basket.pop(2)
+# print(basket)
+
+# remove the value
+# basket.remove(5)
+# print(basket)
+
+# clear completely clears the list
+# basket.clear()
+# print(basket)
+
+# index to return the index of the value
+# basket = ['a', 'b', 'c', 'd', 'e', 'd']
+
+# print(basket.index('d'))
+# print(basket.index('d', 0, 2))
+
+# keyword `in`
+# print('c' in basket)
+# print('x' in basket)
+# print('q' in 'The Queen arises'.lower())
+
+# keyword `count` returns how many times a value occurs
+# print(basket.count('b'))
+
+# keyword `sort`
+# basket.sort()
+# print(basket)
+
+# `sorted()` function produces a new list (array)
+# print(sorted(basket))
+
+# keyword `copy`
+
+# keyword `reverse`
+# basket.reverse()
+# print(basket)
+
+# basket.sort()
+# basket.reverse()
+# print(basket)
+
+# COMMON LIST PATTERNS
+# basket = ['a', 'x', 'b', 'c', 'd', 'e', 'd']
+# basket.sort()
+# basket.reverse()
+# print(basket[::-1])
+# print(basket)
+
+# range
+# print(list(range(100)))
+
+# join
+# sentence = ' '.join(['hi', 'my', 'name', 'is', 'Gael'])
+# print(sentence)

@@ -94,11 +94,31 @@
 # print(c)
 
 # Expressions vs Statements
-iq = 100
-user_age = iq / 5
+# iq = 100
+# user_age = iq / 5
 
 # Augmented Assignment Operator
-some_value = 5
-some_value +=2
+# some_value = 5
+# some_value += 2
+#
+# print(some_value)
 
-print(some_value)
+# STRINGS
+# print('username')
+# print(type("hi hello there 24"))
+# username = 'supercoder'
+# password = 'supersecret'
+
+# triple single quotes for multiline string
+# long_string = '''
+# WOW
+# O O
+# ---
+# '''
+#
+# print(long_string)
+
+first_name = 'Omi'
+last_name = 'Angel'
+full_name = first_name + ' ' + last_name
+print(full_name)

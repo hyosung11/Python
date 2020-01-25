@@ -68,3 +68,12 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
   - CONSTANTS are CAPITALIZED
 
 ### Expressions vs Statements
+- expressions: pieces of code that produce a value (right side of equation)
+- statements: entire lines of code that perform an action
+
+### Augmented Assignment Operator
+- e.g., `+=`, `*=`
+
+### Strings
+
+### String Concatenation

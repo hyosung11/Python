@@ -88,7 +88,17 @@
 # __DUNDER
 
 # multiple variables
-a,b,c = 1,2,3
-print(a)
-print(b)
-print(c)
+# a,b,c = 1,2,3
+# print(a)
+# print(b)
+# print(c)
+
+# Expressions vs Statements
+iq = 100
+user_age = iq / 5
+
+# Augmented Assignment Operator
+some_value = 5
+some_value +=2
+
+print(some_value)

@@ -21,3 +21,30 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 - Code Editors: sublime text, visual studio code
 - IDEs: PyCharm, Spyder
 - Notebooks: jupyter
+- `python3`
+- `exit()`
+- `python main.py`
+
+### Python 2 vs Python 3
+- Python3 introduced in 2008
+- [The Story of Python](https://www.youtube.com/watch?v=J0Aq44Pze-w)
+- [Python 2 vs Python 3](https://www.geeksforgeeks.org/important-differences-between-python-2-x-and-python-3-x-with-examples/)
+- [Another Article](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+
+### [Why So Many Languages](https://en.wikipedia.org/wiki/List_of_programming_languages)
+- Languages have tradeoffs, so choose depending on purpose
+- Python is great for developer code
+
+### [ZTM Python Cheat Sheet](https://zerotomastery.io/courses/python/cheatsheet/?utm_source=udemy&utm_medium=coursecontent)
+
+## Section 3: Python Basics
+
+### Learning Python
+- Terms
+- Data Types
+- Actions
+- Best Practices
+
+
+### Python Data Types
+- Numbers

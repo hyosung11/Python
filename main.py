@@ -369,10 +369,52 @@
 # print(cookies)
 
 # DICTIONARY
-dictionary = {
-    'a': 1,
-    'b': 2,
-    'c': 3
+# dictionary = {
+#     'a': 1,
+#     'b': 2,
+#     'c': 3
+# }
+#
+# print(dictionary)
+
+# .get
+user = {
+    'basket': [1,2,3],
+    'greet': 'hello',
+    'age': 46
 }
 
-print(dictionary)
+# # print(user.get('age'))
+# print(user.get('age', 55))
+#
+# # another less common way
+# user2 = dict(name='Sungster')
+# print(user2)
+
+# keys
+# print('age' in user.keys())
+
+# values
+# print('hello' in user.values())
+
+# items
+# print(user.items())
+
+# clear
+# print(user.clear())
+#
+# user.clear()
+# print(user)
+
+# copy
+# print(user.copy())
+
+# pop
+# print(user.pop('age'))
+# print(user)
+
+# popitem
+
+# update
+print(user.update({'age': 55}))
+print(user)

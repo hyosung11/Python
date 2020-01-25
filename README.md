@@ -116,4 +116,15 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 - an array with another array inside it [multi-dimensional]
 
 ### Dictionaries
+- Also known as mappings or hash tables. They are key value pairs that DO NOT retain order
 `dict` data type
+
+### Developer Fundamentals III: Using Data Structures
+
+### Dictionary Keys
+- has to be immutable (a `list` cannot be a key because it can change)
+- has to be unique, a repeated key will be overwritten
+
+### Dictionary Methods
+
+### Tuples 

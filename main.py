@@ -141,6 +141,25 @@
 # formatted strings
 
 name = 'SungOh'
-age = 55
+age = 4
 
-print('Hi ' + name + '. You are ' + age + ' years old')
+# 1. string concatenation
+# print('Hi ' + name + '. You are ' + str(age) + ' years old')
+
+# 2. (f ... )(only works in Python 3)
+# print(f'hi {name}. You are {age} years old')
+
+# 3. .format()
+
+## String Indexes
+selfish = '01234567'
+        # 01234567
+
+# [start:stop:stepover]
+print(selfish[1:8:2]) # => 1357
+
+# start from end of string
+print(selfish[-1]) # => 7
+
+#
+print(selfish[::-2]) # => 7531

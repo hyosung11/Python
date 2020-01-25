@@ -84,3 +84,11 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 - `\` to make next char a string
 - `\t` for a tab
 - `\n` for a new line
+
+
+### Formatted Strings
+- f string `(f ...)` - recommended
+- `.format()` still used from Python 2
+
+### String Indexes
+- access differnt parts of a string by its index

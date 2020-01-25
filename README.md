@@ -77,3 +77,10 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 ### Strings
 
 ### String Concatenation
+
+### Type Conversion
+
+### Escape Sequences
+- `\` to make next char a string
+- `\t` for a tab
+- `\n` for a new line

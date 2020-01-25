@@ -118,7 +118,22 @@
 #
 # print(long_string)
 
-first_name = 'Omi'
-last_name = 'Angel'
-full_name = first_name + ' ' + last_name
-print(full_name)
+# first_name = 'Omi'
+# last_name = 'Angel'
+# full_name = first_name + ' ' + last_name
+# print(full_name)
+
+# Type Conversion
+
+# a = str(100)
+# b = int(a)
+# c = type(b)
+# print(c)
+
+# print(type(int(str(100))))
+
+# Escape Sequence
+
+weather = "It\'s \"kind of\" sunny "
+
+print(weather)

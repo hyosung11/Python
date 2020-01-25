@@ -99,3 +99,8 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 ### Built-In Functions + Methods
 - [Built-in Functions](https://docs.python.org/3/library/functions.html)
 - [Methods](https://www.w3schools.com/python/python_ref_string.asp)
+
+### Booleans
+
+### Developer Fundamentals II: Commenting Code
+- [Writing Comments in Python](https://realpython.com/python-comments-guide/)

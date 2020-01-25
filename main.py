@@ -171,8 +171,54 @@
 #
 # print(string) # => TypeError: 'str' object does not support item assignment
 
-string = 'Desirable Difficulties'
+# string = 'Desirable Difficulties'
+#
+# string = 'I love ' + string
+#
+# print(string)
 
-string = 'I love ' + string
+# Built-In Functions + Methods
+# print(len('antifragile')) # => 11
+#
+# truth = 'antifragile'
+# # print(truth[:]) # antifragile
+#
+# print(truth[0:len(truth)]) # antifragile
 
-print(string)
+# quote = 'to be or not to be'
+# quote2 = quote.replace('be', 'me')
+# # print(quote.upper())
+# # print(quote.capitalize())
+#
+# # .find() returns index where string starts
+# # print(quote.find('be')) # => 3
+#
+# # .replace('a', 'b')
+# print(quote.replace('be', 'me'))
+#
+# print(quote2)
+# print(quote)
+
+# Booleans
+# name = 'Sohee'
+# is_cool = False
+#
+# is_cool = True
+#
+# print(bool(0)) # False
+# print(bool(1)) # True
+
+# Exercise: Type Conversion
+# name = 'Omi Bidol-Lee'
+# age = 8
+# relationship_status = 'single'
+#
+# relationship_status = 'in love'
+#
+
+birth_year = input('What year were you born?')
+print(type(birth_year))
+
+age = 2020 - int(birth_year)
+
+print(f'Your age is: {age}')

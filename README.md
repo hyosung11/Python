@@ -114,3 +114,6 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 
 ### Matrix
 - an array with another array inside it [multi-dimensional]
+
+### Dictionaries
+`dict` data type

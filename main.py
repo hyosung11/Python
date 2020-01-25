@@ -241,15 +241,24 @@
 # print(amazon_cart[2])
 
 # List Slicing (creates a new list)
-amazon_cart = [
-    'notebooks',
-    'pens',
-    'monkeys',
-    'bunnies'
+# amazon_cart = [
+#     'notebooks',
+#     'pens',
+#     'monkeys',
+#     'bunnies'
+# ]
+#
+# # print(amazon_cart[0::2])
+# amazon_cart[0] = 'books'
+# new_cart = amazon_cart[:]
+# print(new_cart)
+# print(amazon_cart)
+
+# Matrix
+matrix = [
+    [1,5,1],
+    [0,1,0],
+    [1,0,1]
 ]
 
-# print(amazon_cart[0::2])
-amazon_cart[0] = 'books'
-new_cart = amazon_cart[:]
-print(new_cart)
-print(amazon_cart)
+print(matrix[0][1])

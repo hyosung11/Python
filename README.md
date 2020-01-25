@@ -111,3 +111,6 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 - List Slicing
 - Lists are mutable
   - copying vs modifying
+
+### Matrix
+- an array with another array inside it [multi-dimensional]

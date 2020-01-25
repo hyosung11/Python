@@ -43,4 +43,52 @@
 # print(abs(-20))
 
 # Operator Precedence
-print((20 - 3) + 2 ** 2)
+# print((20 - 3) + 2 ** 2)
+
+# ()
+# **
+# * /
+# + -
+
+# print((5 + 4) * 10 / 2) # 45
+#
+# print(((5 + 4) * 10) / 2)
+#
+# print((5 + 4) * (10 / 2))
+#
+# print(5 + (4 * 10) / 2)
+
+# Floor Division(//)
+# divides and returns the integer value of the quotient. It dumps the digits after the decimal.
+# print(5 + 4 * 10 // 2)
+
+# complex
+
+# bin()
+# print(bin(5)) # 0b101
+# print(int('0b101', 2)) # 5
+
+# Variables
+# iq = 190
+#
+# print(iq)
+# _user_iq (private variable starts with _underscore)
+# user_iq = 190
+#
+# print(user_iq)
+
+# iq = 190
+# user_age = iq/4.0
+#
+# print(user_age)
+
+# CONSTANTS are CAPITALIZED
+# PI = 3.14
+#
+# __DUNDER
+
+# multiple variables
+a,b,c = 1,2,3
+print(a)
+print(b)
+print(c)

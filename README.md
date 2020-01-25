@@ -48,3 +48,23 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 
 ### Python Data Types
 - Numbers
+- [Math Functions](https://www.programiz.com/python-programming/modules/math)
+
+### Developer Fundamentals I
+- Learn a language by using it not by memorizing it.
+
+### Operator Precedence
+
+### Optional: bin() and complex
+
+### Variables
+- [Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
+- Best Practices
+  - snake_case
+  - start with lowercase or underscore
+  - letters, numbers, underscores
+  - case sensitive
+  - don't overwrite keywords
+  - CONSTANTS are CAPITALIZED
+
+### Expressions vs Statements

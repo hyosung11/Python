@@ -216,9 +216,40 @@
 # relationship_status = 'in love'
 #
 
-birth_year = input('What year were you born?')
-print(type(birth_year))
+# birth_year = input('What year were you born?')
+# print(type(birth_year))
+#
+# age = 2020 - int(birth_year)
+#
+# print(f'Your age is: {age}')
 
-age = 2020 - int(birth_year)
+# Password Checker
+# username = input('What is your username?')
+# password = input('What is your password?')
+#
+# password_length = len(password)
+# hidden_password = '*' * password_length
+#
+# print(f'{username}, your password {hidden_password}, is {password_length} letters long')
 
-print(f'Your age is: {age}')
+# Lists
+# list = [1,2,3,4,5]
+# list2 = ['a', 'b', 'c']
+# list3 = [1,2,'a', True]
+
+# amazon_cart = ['notebooks', 'pens']
+# print(amazon_cart[2])
+
+# List Slicing (creates a new list)
+amazon_cart = [
+    'notebooks',
+    'pens',
+    'monkeys',
+    'bunnies'
+]
+
+# print(amazon_cart[0::2])
+amazon_cart[0] = 'books'
+new_cart = amazon_cart[:]
+print(new_cart)
+print(amazon_cart)

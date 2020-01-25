@@ -104,3 +104,10 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 
 ### Developer Fundamentals II: Commenting Code
 - [Writing Comments in Python](https://realpython.com/python-comments-guide/)
+
+### Lists
+- ordered sequence of objects
+- like arrays in other languages
+- List Slicing
+- Lists are mutable
+  - copying vs modifying

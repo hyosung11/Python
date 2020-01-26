@@ -171,3 +171,18 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 ### range(), enumerate()
 
 ### While Loops
+
+### `break`, `continue`, `pass`
+
+### Our First GUI: A Christmas Tree
+
+### Developer Fundamentals IV: What is good code?
+- clean
+- readable
+- predictable
+- DRY - don't repeat yourself
+
+### Functions
+- `def` define a function
+
+### Parameters and Aeguments

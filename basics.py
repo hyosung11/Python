@@ -145,9 +145,72 @@ user = {
 #         print(f'index of 50 is: {i}')
 
 # While Loop
-i = 0
-while i < 11:
-    print(i)
-    i += 1
-else:
-    print('All done')
+# i = 0
+# while i < 11:
+#     print(i)
+#     i += 1
+#     break
+# else:
+#     print('All done')
+
+# my_list = [1,2,3]
+#
+# for item in my_list:
+#     print(item)
+#
+# i = 0
+# while i < len(my_list):
+#     print(my_list[i])
+#     i += 1
+
+# while True:
+#     response = input('say something: ')
+#     if (response == 'bye'):
+#         break
+
+# break, continue, pass
+
+#Exercise!
+#Display the image below to the right hand side where the 0 is going to be ' ', and the 1 is going to be '*'. This will reveal an image!
+picture = [
+  [0,0,0,1,0,0,0],
+  [0,0,1,1,1,0,0],
+  [0,1,1,1,1,1,0],
+  [1,1,1,1,1,1,1],
+  [0,0,0,1,0,0,0],
+  [0,0,0,1,0,0,0]
+]
+
+# 1. iterate over picture
+    # if 0 => print ' '
+    # if 1 => print *
+
+# for row in picture:
+#     for pixel in row:
+#         if (pixel == 1):
+#             print('*', end='')
+#         else:
+#             print(' ', end='')
+#     print('')
+
+# Good Code
+# fill = '$'
+# empty = ' '
+# for row in picture:
+#     for pixel in row:
+#         if pixel:
+#             print(fill, end='')
+#         else:
+#             print(empty, end='')
+#     print('')
+
+# Check for duplicates in list
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+
+duplicates = []
+for value in some_list:
+    if some_list.count(value) > 1:
+        if value not in duplicates:
+            duplicates.append(value)
+
+print(duplicates)

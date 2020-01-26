@@ -184,5 +184,16 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 
 ### Functions
 - `def` define a function
+- should do one thing really well
+- should return something
 
-### Parameters and Aeguments
+### Parameters and Arguments
+- parameters define variables to pass into a function
+- arguments are called (invoked) when running a function
+
+### Default Parameters and Keyword Arguments
+- assign a default parameter
+- can use keyword arguments to explicitly define the values rather than positional arguments
+
+### Return
+- functions should `return` something

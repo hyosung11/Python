@@ -71,4 +71,14 @@
 # Nested Loops
 for item in (1,2,3,4,5):
     for x in ['a', 'b', 'c']:
-        print(item, 'a')
+        print(1, 'a')
+
+# Iterables
+user = {
+    name: 'Golem',
+    age: 5006,
+    can_swim: False
+}
+
+for item in user:
+    print(item)

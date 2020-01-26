@@ -433,8 +433,13 @@ user = {
 #
 # print(set(my_list)) # => {1, 2, 3, 4, 5}
 
-my_set = {1,2,3,4,5,5}
+# my_set = {1,2,3,4,5,5}
+#
+# print(1 in my_set) # => True
+#
+# print(len(my_set)) # => 5 (duplicate not recorded)
 
-print(1 in my_set) # => True
-
-print(len(my_set)) # => 5 (duplicate not recorded)
+# school = {'Bobby','Tammy','Jammy','Sally','Danny'}
+# attendance_list = ['Jammy', 'Bobby', 'Danny', 'Sally']
+#
+# print(school.difference(attendance_list))

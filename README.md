@@ -136,3 +136,12 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 ### Sets
 - unordered collection of unique objects (no duplicates)
 - [Python Set Methods](https://www.w3schools.com/python/python_ref_set.asp)
+
+## Section 4: Python Basics II
+
+### Conditional Logic
+  - if
+  - elif
+  - else
+
+### Indentation in Python

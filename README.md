@@ -162,3 +162,10 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 ### For Loops
 
 ### Iterables
+- list
+- dictionary
+- tuple
+- set
+- string
+
+### range(), enumerate()

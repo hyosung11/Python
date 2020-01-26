@@ -69,16 +69,77 @@
 #     print(element)
 
 # Nested Loops
-for item in (1,2,3,4,5):
-    for x in ['a', 'b', 'c']:
-        print(1, 'a')
+# for item in (1,2,3,4,5):
+#     for x in ['a', 'b', 'c']:
+#         print(1, 'a')
 
 # Iterables
 user = {
-    name: 'Golem',
-    age: 5006,
-    can_swim: False
+    'name': 'Golem',
+    'age': 5006,
+    'can_swim': False
 }
+# returns the keys by default
+# for item in user:
+#     print(item)
 
-for item in user:
-    print(item)
+# returns the key value pairs in a tuple
+# for item in user.items():
+#     print(item)
+
+# returns the values
+# for item in user.values():
+#     print(item)
+
+# returns the keys explicitly
+# for item in user.keys():
+#     print(item)
+
+# for item in user.items():
+#     key, value = item
+#     print(key, value)
+
+# for key, value in user.items():
+#     print(key, value)
+
+
+# Tricky Counter Exercise
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+#
+# counter = 0
+# for num in my_list:
+#     counter = counter + num
+#
+# print(counter)
+
+# range()
+# print(range(100))
+
+# for number in range(0, 100):
+#     print(number)
+
+# for number in range(0, 11):
+#     print('multiple emails')
+
+# for _ in range(0, 11):
+#     print('test')
+
+# 3rd parameter is stepover ascending
+# for _ in range(0, 11, 2):
+#     print(_)
+
+# stepover descending
+# for _ in range(11, 0, -2):
+#     print(_)
+
+# list that has integers
+# for _ in range(2):
+#     print(list(range(10)))
+
+# enumerate() - to get index counter of item that you're looping through
+# for i, char in enumerate((1, 2, 3)):
+#     print(i, char)
+
+# for i, char in enumerate(list(range(100))):
+#     if char == 50:
+#         print(f'index of 50 is: {i}')

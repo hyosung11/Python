@@ -134,12 +134,38 @@
 #
 # print(highest_even([22,2,4,55,36,5554]))
 
-total = 0
+# total = 0
+#
+# def count():
+#     global total
+#     total += 1
+#     return total
+#
+# count()
+# count()
+# print(count())
 
-def count():
-    global total += 1
-    return total
+# total = 0
+#
+# # dependency injection
+# def count(total):
+#     total += 1
+#     return total
+#
+# print(count(count(count(total))))
 
-count()
-count()
-print(count())
+# Scope - what variables do I have access to?
+# def outer():
+#     x = "local"
+#     def inner():
+#         nonlocal x
+#         x = "nonlocal"
+#         print("inner:", x)
+#     inner()
+#     print("outer:", x)
+# outer()
+
+#1 - start with local
+#2 - Parent local?
+#3 - global
+#4 - built in python functions

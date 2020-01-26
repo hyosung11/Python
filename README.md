@@ -214,11 +214,31 @@ test('!!!')
 
 ### Clean Code
 
-### *args and **kwargs
-- Rule order: params, *args, default parameters, **kwargs
+### *args and **kwargs **
+- Rule order: params, *args*, default parameters, **kwargs**
 
 ### Scope - what variables do I have access to?
 1. start with local
 2. Parent of local?
 3. Global
-4. Built in Python functions
+4. Built in Python functions'
+
+### global keyword and nonlocal keyword
+- `nonlocal` used to refer to the parent local
+- generally write clean code and don't use these keywords
+
+### Why Do We Need Scope
+- garbage collection
+
+### Python Exam: Testing Your Understanding
+- [Test 1: 25 Questions](https://www.w3schools.com/quiztest/quiztest.asp?qtest=PYTHON)
+- [Test 2: 51 Questions](https://www.w3schools.com/python/exercise.asp)
+
+## Section 5: Developer Environment
+- Code Editors: lightweight as they provide editors and linting
+- IDEs are full-fledged environments
+- Tools
+  - Sublime Text
+  - Visual Studio Code 
+  - PyCharm 
+

@@ -143,3 +143,11 @@ user = {
 # for i, char in enumerate(list(range(100))):
 #     if char == 50:
 #         print(f'index of 50 is: {i}')
+
+# While Loop
+i = 0
+while i < 11:
+    print(i)
+    i += 1
+else:
+    print('All done')

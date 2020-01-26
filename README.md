@@ -214,4 +214,7 @@ test('!!!')
 
 ### Clean Code
 
-### args and kwargs
+### *args and **kwargs
+- Rule order: params, *args, default parameters, **kwargs
+
+### Scope - what variables do I have access to?

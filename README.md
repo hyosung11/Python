@@ -134,7 +134,7 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
   - `index()`
 
 ### Sets
-- unordered collection of unique objects (no duplicates)
+- unordered collection of unique elements (no duplicates)
 - [Python Set Methods](https://www.w3schools.com/python/python_ref_set.asp)
 
 ## Section 4: Python Basics II
@@ -145,3 +145,11 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
   - else
 
 ### Indentation in Python
+
+### Truthy vs Falsy
+- [What is Truthy and Falsy?](https://stackoverflow.com/questions/39983695/what-is-truthy-and-falsy-how-is-it-different-from-true-and-false)
+
+### Ternary Operator
+`condition_if_true if condition else condition_if_false`
+
+### Short Circuiting 

@@ -218,3 +218,7 @@ test('!!!')
 - Rule order: params, *args, default parameters, **kwargs
 
 ### Scope - what variables do I have access to?
+1. start with local
+2. Parent of local?
+3. Global
+4. Built in Python functions

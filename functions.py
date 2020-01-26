@@ -125,11 +125,21 @@
 #
 # print(highest_even([10,2,3,4,8,11]))
 
-def highest_even(list):
-    evens = []
-    for num in list:
-        if num % 2 == 0:
-            evens.append(num)
-    return max(evens)
+# def highest_even(list):
+#     evens = []
+#     for num in list:
+#         if num % 2 == 0:
+#             evens.append(num)
+#     return max(evens)
+#
+# print(highest_even([22,2,4,55,36,5554]))
 
-print(highest_even([22,2,4,55,36,5554]))
+total = 0
+
+def count():
+    global total += 1
+    return total
+
+count()
+count()
+print(count())

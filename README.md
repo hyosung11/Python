@@ -197,3 +197,21 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 
 ### Return
 - functions should `return` something
+
+### Methods vs Functions
+- `.method` has to be owned by something to the left of the period
+
+### Docstrings: comment code inside of functions
+```Python3
+def test(a)
+'''
+Info: this function tests and prints param a
+'''
+  print()
+
+test('!!!')
+```
+
+### Clean Code
+
+### args and kwargs

@@ -416,5 +416,25 @@ user = {
 # popitem
 
 # update
-print(user.update({'age': 55}))
-print(user)
+# print(user.update({'age': 55}))
+# print(user)
+
+# TUPLE ()
+# my_tuple = (1,2,3,4,5)
+# my_tuple[1] = 'z'
+#
+# print(my_tuple)
+
+# SETS
+# my_set = {1,2,3,4,5,5}
+# print(my_set)
+
+# my_list = [1,2,3,4,5,5]
+#
+# print(set(my_list)) # => {1, 2, 3, 4, 5}
+
+my_set = {1,2,3,4,5,5}
+
+print(1 in my_set) # => True
+
+print(len(my_set)) # => 5 (duplicate not recorded)

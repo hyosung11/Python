@@ -127,4 +127,12 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 
 ### Dictionary Methods
 
-### Tuples 
+### Tuples
+- immutable lists: e.g., children = ('Omi', 'SungOh')
+- Tuple Methods
+  - `count()`
+  - `index()`
+
+### Sets
+- unordered collection of unique objects (no duplicates)
+- [Python Set Methods](https://www.w3schools.com/python/python_ref_set.asp)

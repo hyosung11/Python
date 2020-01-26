@@ -155,4 +155,8 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 ### Short Circuiting
 
 ### Logical Operators
-- and, or, >, <, ==, !=, not
+- and, or, >, <, ==, !=, not, and not, etc.
+
+### is (===) vs ==
+
+### For Loops

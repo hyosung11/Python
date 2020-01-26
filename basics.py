@@ -36,17 +36,39 @@
 # print(can_message)
 
 # Logical Operators
-is_magician = True
-is_expert = False
+# is_magician = True
+# is_expert = False
+#
+# # check if magician AND expert: 'you are a master magician'
+# if is_magician and is_expert:
+#     print('you are a master magician')
+#
+# # check if magician but not expert: 'at least you're getting there'
+# elif is_magician and not is_expert:
+#     print('at least you\'re getting there')
+#
+# # if you're not a magician: 'you need magic powers'
+# elif not is_magician:
+#     print('you need magic powers')
 
-# check if magician AND expert: 'you are a master magician'
-if is_magician and is_expert:
-    print('you are a master magician')
+# print(True == 1)
+# print('' == 1)
+# print([] == 1)
+# print(10 == 10.0)
+# print([] == [])
 
-# check if magician but not expert: 'at least you're getting there'
-elif is_magician and not is_expert:
-    print('at least you\'re getting there')
+# is same as === in JS
+# print(True is 1)
+# print('' is 1)
+# print([] is 1)
+# print(10 is 10.0)
+# print([] is [])
 
-# if you're not a magician: 'you need magic powers'
-elif not is_magician:
-    print('you need magic powers')
+# For Loops
+# for element in {1,2,3,4,5}:
+#     print(element)
+
+# Nested Loops
+for item in (1,2,3,4,5):
+    for x in ['a', 'b', 'c']:
+        print(item, 'a')

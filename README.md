@@ -152,4 +152,7 @@ Complete Python Developer in 2020: Zero to Mastery Created by Andrei Neagoie
 ### Ternary Operator
 `condition_if_true if condition else condition_if_false`
 
-### Short Circuiting 
+### Short Circuiting
+
+### Logical Operators
+- and, or, >, <, ==, !=, not

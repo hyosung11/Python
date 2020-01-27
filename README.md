@@ -290,3 +290,7 @@ test('!!!')
 ### Dunder Methods 
 - special methods that Python recognizes to modify our classes 
 - [Dunder Methods](https://docs.python.org/3/reference/datamodel.html#special-method-names)
+
+### Multiple Inheritance 
+
+### MRO - Method Resolution Order 

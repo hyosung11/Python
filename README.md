@@ -238,7 +238,18 @@ test('!!!')
 - Code Editors: lightweight as they provide editors and linting
 - IDEs are full-fledged environments
 - Tools
-  - Sublime Text
-  - Visual Studio Code 
-  - PyCharm 
+  - Code Editors
+    - Sublime Text
+    - Visual Studio Code
+  - IDEs
+    - PyCharm
+    - Spyder
+  - Notebooks
+    - jupyter
 
+### Code Formatting - PEP (Python Enhancement Proposals) 8 (Style Guide for Python Code)
+
+## Section 6: Advanced Python: Object Oriented Programming
+
+### Object Oriented Programming
+- a paradigm for structuring and writing our code 

@@ -26,4 +26,5 @@ class M(B,A,Z):pass
 
 print(M.__mro__)
 
-# A B Z X Y object
+# depth first search 
+# M B A Z Y Z object 

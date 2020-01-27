@@ -293,4 +293,23 @@ test('!!!')
 
 ### Multiple Inheritance 
 
-### MRO - Method Resolution Order 
+### MRO - [Method Resolution Order](http://www.srikanthtechnologies.com/blog/python/mro.aspx) 
+- not recommended way to code 
+
+## Section 7: Advanced Python: Functional Programming
+- focus on separation of concerns 
+- separate data and functions
+- Goals the same regardless:
+  - Clear and Understandable
+  - Easy to Extend
+  - Easy to Maintain
+  - Memory Efficient
+  - DRY 
+
+### Pure Functions
+- separation between the data of a program and its behavior
+- Rules:
+  - 1. Given the same input it will always return the same output
+  - 2. It should not produce any side effects
+
+

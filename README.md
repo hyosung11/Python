@@ -256,3 +256,12 @@ test('!!!')
 - modeling our code in terms of real world objects
 - CLASS => instantiate instances
   - `class CamelCase:`
+
+### Attributes and Methods
+
+### __init__
+
+### @classmethod and @staticmethod
+- [Methods Differences](https://www.makeuseof.com/tag/python-instance-static-class-methods/)
+
+### Developer Fundamentals V: Test Your Assumptions 

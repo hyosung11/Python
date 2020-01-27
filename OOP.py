@@ -31,6 +31,26 @@
 # Creating Our Own Objets
 
 
+# class PlayerCharacter:
+#     # Class Object Attribute
+#     membership = True
+#     def __init__(self, name, age):
+#         self.name = name  # attribute
+#         self.age = age
+
+#     def run(self):
+#         print('run')
+#         return 'done'
+
+
+# player1 = PlayerCharacter('Kobe', 41)
+# player2 = PlayerCharacter('Lebron', 35)
+# player2.points = 33333
+
+# # help([list])
+# print(player2.membership)
+
+
 class PlayerCharacter:
     # Class Object Attribute
     membership = True
@@ -38,14 +58,14 @@ class PlayerCharacter:
         self.name = name  # attribute
         self.age = age
 
-    def run(self):
-        print('run')
-        return 'done'
+    def shout(self):
+        print(f'my name is {self.name}')
+
+    @classmethod
+    def adding_things(cls, num1, num2):
+        return cls('Teddy', num1 + num2)
 
 
-player1 = PlayerCharacter('Kobe', 41)
-player2 = PlayerCharacter('Lebron', 35)
-player2.points = 33333
-
-# help([list])
-print(player2.membership)
+# player1 = PlayerCharacter('Kobe', 41)
+player3 = PlayerCharacter.adding_things(2,3)
+print(player3.age)

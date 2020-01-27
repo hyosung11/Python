@@ -32,6 +32,8 @@
 
 
 class PlayerCharacter:
+    # Class Object Attribute
+    membership = True
     def __init__(self, name, age):
         self.name = name  # attribute
         self.age = age
@@ -45,6 +47,5 @@ player1 = PlayerCharacter('Kobe', 41)
 player2 = PlayerCharacter('Lebron', 35)
 player2.points = 33333
 
-# print(player1)
-# print(player1.points)
-print(player2.points)
+# help([list])
+print(player2.membership)

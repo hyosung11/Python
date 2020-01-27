@@ -278,3 +278,6 @@ test('!!!')
 
 ### Inheritance 
 - allows new objects to take on the characteristics of existing objects 
+
+### Polymorphism - many forms 
+- object classes can share the same method name but those method names can act differently based on what object calls them

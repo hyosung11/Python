@@ -281,3 +281,12 @@ test('!!!')
 
 ### Polymorphism - many forms 
 - object classes can share the same method name but those method names can act differently based on what object calls them
+
+### `super()`
+
+### Object Introspection 
+- introspection: the ability to determine the type of an object at runtime.
+
+### Dunder Methods 
+- special methods that Python recognizes to modify our classes 
+- [Dunder Methods](https://docs.python.org/3/reference/datamodel.html#special-method-names)

@@ -169,3 +169,13 @@
 #2 - Parent local?
 #3 - global
 #4 - built in python functions
+
+
+# PURE FUNCTIONS
+def multiply_by2(li):
+    new_list = []
+    for item in li:
+        new_list.append(item*2)
+    return new_list
+
+print(multiply_by2([1,2,3]))

@@ -309,7 +309,7 @@ test('!!!')
 ### Pure Functions
 - separation between the data of a program and its behavior
 - Rules:
-  - 1. Given the same input it will always return the same output
-  - 2. It should not produce any side effects
+  - Given the same input it will always return the same output
+  - It should not produce any side effects
 
 

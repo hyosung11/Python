@@ -252,4 +252,7 @@ test('!!!')
 ## Section 6: Advanced Python: Object Oriented Programming
 
 ### Object Oriented Programming
-- a paradigm for structuring and writing our code 
+- a paradigm for structuring and writing our code
+- modeling our code in terms of real world objects
+- CLASS => instantiate instances
+  - `class CamelCase:`

@@ -265,3 +265,16 @@ test('!!!')
 - [Methods Differences](https://www.makeuseof.com/tag/python-instance-static-class-methods/)
 
 ### Developer Fundamentals V: Test Your Assumptions 
+
+### Encapsulation 
+- the binding of data and functions that manipulate that data into one big object to keep everything in this box for interaction 
+
+### Abstraction 
+- hiding information and giving access to only what's necessary
+
+### Private vs Public Variables 
+- no true private variables in Python 
+- but convention to use underscore `_variable` to indicate it shouldn't be touched
+
+### Inheritance 
+- allows new objects to take on the characteristics of existing objects 

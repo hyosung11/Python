@@ -51,21 +51,38 @@
 # print(player2.membership)
 
 
+# class PlayerCharacter:
+#     # Class Object Attribute
+#     membership = True
+#     def __init__(self, name, age):
+#         self.name = name  # attribute
+#         self.age = age
+
+#     def shout(self):
+#         print(f'my name is {self.name}')
+
+#     @classmethod
+#     def adding_things(cls, num1, num2):
+#         return cls('Teddy', num1 + num2)
+
+#     @staticmethod
+#     def adding_things2(num1, num2):
+#         return (num1 + num2)
+
+# # player1 = PlayerCharacter('Kobe', 41)
+# player3 = PlayerCharacter.adding_things(2,3)
+# print(player3.age)
+
 class PlayerCharacter:
-    # Class Object Attribute
-    membership = True
     def __init__(self, name, age):
         self.name = name  # attribute
         self.age = age
 
-    def shout(self):
-        print(f'my name is {self.name}')
+    def run(self):
+        return self
 
-    @classmethod
-    def adding_things(cls, num1, num2):
-        return cls('Teddy', num1 + num2)
+    def speak(self):
+        print(f'my name is {self.name}, and I am {self.age} years old.')
 
-
-# player1 = PlayerCharacter('Kobe', 41)
-player3 = PlayerCharacter.adding_things(2,3)
-print(player3.age)
+player1 = PlayerCharacter('Kobe', 41)
+player1.speak()

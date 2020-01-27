@@ -73,16 +73,62 @@
 # player3 = PlayerCharacter.adding_things(2,3)
 # print(player3.age)
 
-class PlayerCharacter:
-    def __init__(self, name, age):
-        self.name = name  # attribute
-        self.age = age
+# class PlayerCharacter:
+#     def __init__(self, name, age):
+#         self.name = name  # attribute
+#         self.age = age
 
-    def run(self):
-        return self
+#     def run(self):
+#         return self
 
-    def speak(self):
-        print(f'my name is {self.name}, and I am {self.age} years old.')
+#     def speak(self):
+#         print(f'my name is {self.name}, and I am {self.age} years old.')
 
-player1 = PlayerCharacter('Kobe', 41)
-player1.speak()
+# player1 = PlayerCharacter('Kobe', 41)
+# player1.speak()
+
+
+# Inheritance 
+class User(object):
+    def sign_in(self):
+        print('logged in')
+
+    def attack(self):
+        print('do nothing')
+
+class Wizard(User):
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+    
+    def attack(self):
+        User.attack(self)
+        print(f'attacking with power of {self.power}')
+
+class Archer(User):
+    def __init__(self, name, num_arrows):
+        self.name = name
+        self.num_arrows = num_arrows
+
+    def attack(self):
+        print(f'attacking with arrows: arrows left- {self.num_arrows}')
+
+wizard1 = Wizard('Merlin', 50)
+archer1 = Archer('Robin', 30)
+print(wizard1.attack())
+
+# wizard1.attack()
+# archer1.attack()
+
+# print(isinstance(wizard1, object))
+
+# def player_attack(char):
+#     char.attack()
+
+# player_attack(wizard1)
+# player_attack(archer1)
+
+# for char in [wizard1, archer1]:
+#     char.attack()
+
+# User.attack(self)

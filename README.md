@@ -395,3 +395,7 @@ test('!!!')
 
 - e.g., `range()` uses `yield` keyword to pause and resume functions
 - generators are a subset of iterables
+
+### Python Exams and Exercises
+
+- [Python Programming Exercises](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended)

@@ -329,3 +329,6 @@ test('!!!')
 ### Decorators
 - supercharges our functions
 - a function that wraps another function and enhances it or changes it 
+
+## Section 9: Advanced Python: Error Handling
+- [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html)

@@ -57,24 +57,49 @@
 # hello('gotcha')
 
 
-#performance decorator.
-from time import time
+# time performance decorator.
+# from time import time
 
 
-def performance(fn):
-  def wrapper(*args, **kwargs):
-    t1 = time()
-    result = fn(*args, **kwargs)
-    t2 = time()
-    print(f'took {t2-t1} seconds')
-    return result
-  return wrapper
+# def performance(fn):
+#   def wrapper(*args, **kwargs):
+#     t1 = time()
+#     result = fn(*args, **kwargs)
+#     t2 = time()
+#     print(f'took {t2-t1} seconds')
+#     return result
+#   return wrapper
 
 
-@performance
-def long_time():
-    for i in range(10000):
-        i*5
+# @performance
+# def long_time():
+#     for i in range(10000):
+#         i*5
+
+# long_time()
 
 
-long_time()
+# AUTHENTICATED
+# Create an @authenticated decorator that only allows the function to run if user1 has 'valid' set to True:
+
+user1 = {
+    'name': 'Sorna',
+    # changing this will either run or not run the message_friends function.
+    'valid': True
+}
+
+
+def authenticated(fn):
+    def wrapper(*args, **kwargs):
+        if args[0]['valid']:
+            return fn(*args, **kwargs)
+    return wrapper
+
+
+@authenticated
+def message_friends(user):
+    print('message has been sent')
+
+
+message_friends(user1)
+

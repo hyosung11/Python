@@ -332,3 +332,5 @@ test('!!!')
 
 ## Section 9: Advanced Python: Error Handling
 - [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html)
+
+## Section 10: Advanced Python: Generators

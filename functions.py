@@ -172,10 +172,51 @@
 
 
 # PURE FUNCTIONS
-def multiply_by2(li):
-    new_list = []
-    for item in li:
-        new_list.append(item*2)
-    return new_list
+# def multiply_by2(li):
+#     new_list = []
+#     for item in li:
+#         new_list.append(item*2)
+#     return new_list
 
-print(multiply_by2([1,2,3]))
+# print(multiply_by2([1,2,3]))
+
+# map, filter, zip, and reduce
+
+# map
+# my_list = [1,2,3]
+# def multiply_by2(item):
+#     return item*2
+
+# print(list(map(multiply_by2, [1, 2, 3])))
+# print(my_list)
+
+# filter
+# my_list = [1, 2, 3]
+
+
+# def multiply_by2(item):
+#     return item*2
+
+# def check_odd(item):
+#     return item % 2 != 0
+
+
+# print(list(filter(check_odd, my_list)))
+# print(my_list)
+
+# zip - join items together in a tuple
+my_list = [1, 2, 3]
+your_list = [10,20,30]
+their_list = [4,5,6]
+def multiply_by2(item):
+    return item*2
+
+
+def check_odd(item):
+    return item % 2 != 0
+
+
+print(list(zip(my_list, your_list)))
+# => [(1, 10), (2, 20), (3, 30)]
+
+print(list(zip(my_list, your_list, their_list)))

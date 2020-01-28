@@ -392,3 +392,6 @@ test('!!!')
 - [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html)
 
 ## Section 10: Advanced Python: Generators
+
+- e.g., `range()` uses `yield` keyword to pause and resume functions
+- generators are a subset of iterables

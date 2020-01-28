@@ -284,27 +284,27 @@ test('!!!')
 
 ### `super()`
 
-### Object Introspection 
+### Object Introspection
 - introspection: the ability to determine the type of an object at runtime.
 
-### Dunder Methods 
-- special methods that Python recognizes to modify our classes 
+### Dunder Methods
+- special methods that Python recognizes to modify our classes
 - [Dunder Methods](https://docs.python.org/3/reference/datamodel.html#special-method-names)
 
-### Multiple Inheritance 
+### Multiple Inheritance
 
-### MRO - [Method Resolution Order](http://www.srikanthtechnologies.com/blog/python/mro.aspx) 
-- not recommended way to code 
+### MRO - [Method Resolution Order](http://www.srikanthtechnologies.com/blog/python/mro.aspx)
+- not recommended way to code
 
 ## Section 7: Advanced Python: Functional Programming
-- focus on separation of concerns 
+- focus on separation of concerns
 - separate data and functions
 - Goals the same regardless:
   - Clear and Understandable
   - Easy to Extend
   - Easy to Maintain
   - Memory Efficient
-  - DRY 
+  - DRY
 
 ### Pure Functions
 - separation between the data of a program and its behavior
@@ -314,3 +314,5 @@ test('!!!')
 - `map(), filter(), zip(), reduce()`
 
 ### Lambda Expressions
+- one-time anonymous functions
+- reduces length of code but makes it less readable

@@ -316,3 +316,5 @@ test('!!!')
 ### Lambda Expressions
 - one-time anonymous functions
 - reduces length of code but makes it less readable
+
+### List Comprehensions

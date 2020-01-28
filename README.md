@@ -311,5 +311,6 @@ test('!!!')
 - Rules:
   - Given the same input it will always return the same output
   - It should not produce any side effects
+- `map(), filter(), zip(), reduce()`
 
 

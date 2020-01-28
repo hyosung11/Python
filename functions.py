@@ -205,18 +205,36 @@
 # print(my_list)
 
 # zip - join items together in a tuple
-my_list = [1, 2, 3]
-your_list = [10,20,30]
-their_list = [4,5,6]
-def multiply_by2(item):
-    return item*2
+# my_list = [1, 2, 3]
+# your_list = [10,20,30]
+# their_list = [4,5,6]
+# def multiply_by2(item):
+#     return item*2
 
 
-def check_odd(item):
-    return item % 2 != 0
+# def check_odd(item):
+#     return item % 2 != 0
 
 
-print(list(zip(my_list, your_list)))
-# => [(1, 10), (2, 20), (3, 30)]
+# print(list(zip(my_list, your_list)))
+# # => [(1, 10), (2, 20), (3, 30)]
 
-print(list(zip(my_list, your_list, their_list)))
+# print(list(zip(my_list, your_list, their_list)))
+# # => [(1, 10, 4), (2, 20, 5), (3, 30, 6)]
+
+# reduce 
+# from functools import reduce
+# my_list = [1, 2, 3]
+
+# def multiply_by2(item):
+#     return item*2
+
+
+# def check_odd(item):
+#     return item % 2 != 0
+
+# def accumulator(acc, item):
+#     print(acc, item)
+#     return acc + item
+
+# print(reduce(accumulator, my_list, 0))

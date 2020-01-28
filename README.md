@@ -313,4 +313,4 @@ test('!!!')
   - It should not produce any side effects
 - `map(), filter(), zip(), reduce()`
 
-
+### Lambda Expressions

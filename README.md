@@ -317,4 +317,15 @@ test('!!!')
 - one-time anonymous functions
 - reduces length of code but makes it less readable
 
-### List Comprehensions
+### Comprehensions (List, Set, Dictionary)
+
+## Section 8: Advanced Python: Decorators
+- `@classmethod`
+- `@staticmethod`
+
+### Higher Order Functions
+- a function that accepts another function in its parameters or returns another function
+
+### Decorators
+- supercharges our functions
+- a function that wraps another function and enhances it or changes it 

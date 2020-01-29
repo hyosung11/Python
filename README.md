@@ -404,3 +404,4 @@ test('!!!')
 
 - Modules: file_name.py
 - Packages: folders that require an __init__.py file
+- `__name__`

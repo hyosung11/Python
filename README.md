@@ -439,3 +439,11 @@ print(add(4, 5))
 - `open`
 - Python uses a cursor to read a file
 - Read, Write, and Append (mode='r')
+- File Paths [pathlib](https://docs.python.org/3/library/pathlib.html)
+- File I/O Errors
+
+## Section 14: Regular Expressions
+
+- [Python RegEx](https://www.w3schools.com/python/python_regex.asp)
+- [regular expressions 101](https://regex101.com/)
+- Interactive RegEx [RegexOne](https://regexone.com/)

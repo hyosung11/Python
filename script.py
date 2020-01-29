@@ -32,6 +32,43 @@
 #     print(text)
 
 # mode='w' writes and will create a new file
-with open('breathe.txt', mode='w') as my_file:
-    text = my_file.write('breathe you are alive')
-    print(text)
+# with open('breathe.txt', mode='w') as my_file:
+#     text = my_file.write('breathe you are alive')
+#     print(text)
+
+
+# File I/O Errors
+# try:
+#     with open('breathe.txt', mode='r') as my_file:
+#         print(my_file.read())
+# except  FileNotFoundError as error:
+#     print('File does not exist')
+#     raise error
+# except IOError as error:
+#     print('IO error')
+#     raise error
+
+
+# TRANSLATOR EXERCISE
+from translate import Translator
+
+translator = Translator(to_lang='ja')
+
+# try:
+#     with open('test.txt', mode='r') as my_file:
+#         text = my_file.read()
+#         translation = translator.translate(text)
+#         print(translation)
+# except FileNotFoundError as error:
+#     print('Check your file path please.')
+
+# 恐怖の向こう側には何もありません。それを受け入れます。それを通り抜けて、愛を見つけてください。
+
+try:
+    with open('test.txt', mode='r') as my_file:
+        text = my_file.read()
+        translation = translator.translate(text)
+        with open('test-ja.txt', mode='w') as my_file2:
+            my_file2.write(translation)
+except FileNotFoundError as error:
+    print('Check your file path please.')

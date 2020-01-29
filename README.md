@@ -438,3 +438,4 @@ print(add(4, 5))
 
 - `open`
 - Python uses a cursor to read a file
+- Read, Write, and Append (mode='r')

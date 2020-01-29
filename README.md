@@ -434,4 +434,7 @@ def add(num1, num2):
 print(add(4, 5))
 ```
 
-## Section 13: File I/O
+## Section 13: File I/O (input/output)
+
+- `open`
+- Python uses a cursor to read a file

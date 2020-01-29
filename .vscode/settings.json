@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "/Users/hyosung11/.pyenv/versions/3.8.1/bin/python"
+    "python.pythonPath": "/Users/hyosung11/.pyenv/versions/3.8.1/bin/python",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#302E17",
+        "titleBar.activeBackground": "#434120",
+        "titleBar.activeForeground": "#FBFBF8"
+    }
 }

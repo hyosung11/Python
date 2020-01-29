@@ -1,8 +1,19 @@
 {
     "python.pythonPath": "/Users/hyosung11/.pyenv/versions/3.8.1/bin/python",
     "workbench.colorCustomizations": {
-        "activityBar.background": "#302E17",
-        "titleBar.activeBackground": "#434120",
-        "titleBar.activeForeground": "#FBFBF8"
-    }
+        "activityBar.background": "#322e15",
+        "activityBar.activeBorder": "#2f7067",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#2f7067",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#0e0d06",
+        "titleBar.inactiveBackground": "#0e0d0699",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#0e0d06",
+        "statusBarItem.hoverBackground": "#322e15",
+        "statusBar.foreground": "#e7e7e7"
+    },
+    "peacock.color": "#0e0d06"
 }

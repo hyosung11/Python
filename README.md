@@ -405,3 +405,33 @@ test('!!!')
 - Modules: file_name.py
 - Packages: folders that require an __init__.py file
 - `__name__`
+- `if __name__ == '__main__':`
+- Built-in Modules: [Python Module Index](https://docs.python.org/3/py-modindex.html)
+- import only what you need: e.g., `from random import shuffle`
+- [Python Package Index](https://pypi.org/)
+- e.g., search for 'read csv python3 built-in'
+- pip install [PIP](https://www.makeuseof.com/tag/install-pip-for-python/)
+- virtual environments venv
+- Useful Modules
+  - Specialized Data Types
+  - [list vs array](https://stackoverflow.com/questions/176011/python-list-vs-array-when-to-use)
+
+### Developer Fundamentals VI: Pros and Cons of Libraries
+
+## Debugging in Python
+- linting
+- IDE or Text Editor
+- Read errors
+- Python Debugger or pdb (can also test inside pdb)
+
+```python
+import pdb
+
+def add(num1, num2):
+    pdb.set_trace()
+    return num1 + num2
+
+print(add(4, 5))
+```
+
+## Section 13: File I/O

@@ -447,3 +447,12 @@ print(add(4, 5))
 - [Python RegEx](https://www.w3schools.com/python/python_regex.asp)
 - [regular expressions 101](https://regex101.com/)
 - Interactive RegEx [RegexOne](https://regexone.com/)
+
+## Testing in Python
+
+- Tools
+  - pylint
+  - pyflakes
+  - AutoPEP 8
+
+- Unit Tests

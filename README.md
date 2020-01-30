@@ -448,7 +448,7 @@ print(add(4, 5))
 - [regular expressions 101](https://regex101.com/)
 - Interactive RegEx [RegexOne](https://regexone.com/)
 
-## Testing in Python
+## Section 15: Testing in Python
 
 - Tools
   - pylint
@@ -456,3 +456,4 @@ print(add(4, 5))
   - AutoPEP 8
 
 - Unit Tests
+  - run all tests (-v for verbose): `python -m unittest -v`

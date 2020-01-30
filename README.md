@@ -419,6 +419,7 @@ test('!!!')
 ### Developer Fundamentals VI: Pros and Cons of Libraries
 
 ## Debugging in Python
+
 - linting
 - IDE or Text Editor
 - Read errors
@@ -488,3 +489,11 @@ print(add(4, 5))
 
 ### PDFs with Python
 
+- PDF Merger
+- PDF Watermarker
+
+### Sending Emails with Python
+
+- [email](https://docs.python.org/3/library/email.examples.html)
+- SMTP: [Simple Email TransferProtocol](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/)
+- [pathlib](https://treyhunner.com/2018/12/why-you-should-be-using-pathlib/)

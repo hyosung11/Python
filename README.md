@@ -457,3 +457,25 @@ print(add(4, 5))
 
 - Unit Tests
   - run all tests (-v for verbose): `python -m unittest -v`
+
+## Section 16: Career of a Python Developer
+
+### Python Careers
+
+- Software Engineer
+- Python developer
+- Data Scientist
+- Data Analyst
+- Research Analyst
+- Backend Developer
+- Testing/Automation
+- Machine Learning
+
+## Section 17: Scripting with Python
+
+### Image Processing
+
+- Pillow forked from PIL
+- [Python Imaging Library](https://en.wikipedia.org/wiki/Python_Imaging_Library)
+
+### Developer Fundamentals VII: Pick the Right Library

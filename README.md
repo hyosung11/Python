@@ -477,5 +477,14 @@ print(add(4, 5))
 
 - [Pillow](https://pillow.readthedocs.io/en/stable/) forked from PIL
 - [Python Imaging Library](https://en.wikipedia.org/wiki/Python_Imaging_Library)
+- JPG to PNG Pokedex Converter
 
 ### Developer Fundamentals VII: Pick the Right Library
+
+### OpenCV
+
+- [OpenCV](https://opencv.org/)
+- OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in commercial products.
+
+### PDFs with Python
+

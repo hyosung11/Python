@@ -475,7 +475,7 @@ print(add(4, 5))
 
 ### Image Processing
 
-- Pillow forked from PIL
+- [Pillow](https://pillow.readthedocs.io/en/stable/) forked from PIL
 - [Python Imaging Library](https://en.wikipedia.org/wiki/Python_Imaging_Library)
 
 ### Developer Fundamentals VII: Pick the Right Library

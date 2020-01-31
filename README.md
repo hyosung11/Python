@@ -545,3 +545,10 @@ $ export FLASK_APP=hello.py
 $ flask run
  * Running on http://127.0.0.1:5000/
  ```
+
+- [Flask Templates](http://flask.palletsprojects.com/en/1.1.x/quickstart/#rendering-templates)
+- [Flask Static Files](http://flask.palletsprojects.com/en/1.1.x/quickstart/#static-files)
+- [Flask Favicon](http://flask.palletsprojects.com/en/1.1.x/patterns/favicon/)
+- [Create dynamic URLs in Flask with url_for()](https://stackoverflow.com/questions/7478366/create-dynamic-urls-in-flask-with-url-for)
+- [Jinja (template engine)](https://en.wikipedia.org/wiki/Jinja_(template_engine))
+- [Variable Rules](https://flask.palletsprojects.com/en/1.1.x/quickstart/#variable-rules)

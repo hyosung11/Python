@@ -561,3 +561,5 @@ $ flask run
 - [Mashup Templates](http://www.mashup-template.com/templates.html)
 - [cruip](https://cruip.com/)
 - [Creative Tim](https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price)
+
+#### [Flask Request Data](https://flask.palletsprojects.com/en/1.1.x/quickstart/#accessing-request-data)

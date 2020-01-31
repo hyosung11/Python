@@ -552,3 +552,8 @@ $ flask run
 - [Create dynamic URLs in Flask with url_for()](https://stackoverflow.com/questions/7478366/create-dynamic-urls-in-flask-with-url-for)
 - [Jinja (template engine)](https://en.wikipedia.org/wiki/Jinja_(template_engine))
 - [Variable Rules](https://flask.palletsprojects.com/en/1.1.x/quickstart/#variable-rules)
+- [MIME Types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+
+### Building a Portfolio
+
+- [Mashup Templates](http://www.mashup-template.com/templates.html)

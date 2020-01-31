@@ -506,3 +506,12 @@ print(add(4, 5))
   - [Requests Module](https://pypi.org/project/requests/)
   - [SHA1 Hash Generator](https://passwordsgenerator.net/sha1-hash-generator/)
   - [Pawned Passwords](https://haveibeenpwned.com/Passwords)
+
+### Twitter Project
+
+- Twitter API
+- [Tweepy](https://www.tweepy.org/)
+
+### SMS with Python
+
+- [Twilio](https://www.twilio.com)

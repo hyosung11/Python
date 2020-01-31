@@ -530,3 +530,18 @@ print(add(4, 5))
 - [CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
 - [Data Pretty Printer](https://docs.python.org/3/library/pprint.html)
 - [Scrapy](https://scrapy.org/) - Web Scraping Framework
+
+## Web Development with Python
+
+- How Websites Work
+- Setting Up [Flask](http://flask.palletsprojects.com/en/1.1.x/)
+- [venv documentation](https://docs.python.org/3/library/venv.html#creating-virtual-environments)
+- [Python Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/)
+- [Where in a virtualenv does the custom code go?](https://stackoverflow.com/questions/1783146/where-in-a-virtualenv-does-the-custom-code-go)
+- [Flask Quickstart](http://flask.palletsprojects.com/en/1.1.x/quickstart/)
+
+```Python
+$ export FLASK_APP=hello.py
+$ flask run
+ * Running on http://127.0.0.1:5000/
+ ```

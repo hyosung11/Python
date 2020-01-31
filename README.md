@@ -516,3 +516,17 @@ print(add(4, 5))
 
 - [Twilio](https://www.twilio.com)
   - Your new Phone Number is +16102981505
+
+## Section 18: Scraping Data with Python
+
+- [Big List of Web Scraping Uses: Application of Web Scraping to Business](http://www.entropywebscraping.com/2017/01/01/big-list-web-scraping-uses/)
+- Web Scraping and APIs
+  - `/robots.txt` e.g., https://www.airbnb.com/robots.txt to check what the site allows you to scrape
+- How Googlebot Works
+
+### Hacker News Project
+
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+- [Data Pretty Printer](https://docs.python.org/3/library/pprint.html)
+- [Scrapy](https://scrapy.org/) - Web Scraping Framework

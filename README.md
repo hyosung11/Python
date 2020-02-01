@@ -629,3 +629,6 @@ $ flask run
 - [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)
 - [K-Nearest Neighbors Demo](http://vision.stanford.edu/teaching/cs231n-demos/knn/)
 - [K-Nearest Neighbors Algorithm](https://www.analyticsvidhya.com/blog/2018/08/k-nearest-neighbor-introduction-regression-python/)
+- Model Persistence
+
+![models](images/models.png)

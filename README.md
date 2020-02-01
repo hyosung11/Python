@@ -617,4 +617,15 @@ $ flask run
 - [matplotlib](https://matplotlib.org/)
 - [jupyter](https://jupyter.org/)
 - [kaggle](https://www.kaggle.com/)
+- [seaborn](https://seaborn.pydata.org/)
+- [bokeh](https://docs.bokeh.org/en/latest/index.html)
 
+### Data Science Project
+
+- [Convert to String](https://stackoverflow.com/questions/39684548/convert-the-string-2-90k-to-2900-or-5-2m-to-5200000-in-pandas-dataframe)
+
+### Machine Learning Project
+
+- [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)
+- [K-Nearest Neighbors Demo](http://vision.stanford.edu/teaching/cs231n-demos/knn/)
+- [K-Nearest Neighbors Algorithm](https://www.analyticsvidhya.com/blog/2018/08/k-nearest-neighbor-introduction-regression-python/)

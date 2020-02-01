@@ -580,3 +580,6 @@ $ flask run
 - [Selenium](https://selenium-python.readthedocs.io/)
 - [Selenium Easy](https://www.seleniumeasy.com/test/)
 - [Cheat Sheet](http://allselenium.info/python-selenium-commands-cheat-sheet-frequently-used/)
+
+## Section 21: Machine Learning + Data Science
+

@@ -531,7 +531,7 @@ print(add(4, 5))
 - [Data Pretty Printer](https://docs.python.org/3/library/pprint.html)
 - [Scrapy](https://scrapy.org/) - Web Scraping Framework
 
-## Web Development with Python
+## Section 19: Web Development with Python
 
 - How Websites Work
 - Setting Up [Flask](http://flask.palletsprojects.com/en/1.1.x/)
@@ -574,3 +574,7 @@ $ flask run
 - [Project Code](https://github.com/aneagoie/portfo)
 - [Project Link](http://andrein.pythonanywhere.com/)
 - [My Portfolio Link](http://hyosung11.pythonanywhere.com/)
+
+## Section 20: Automation Testing with Selenium
+
+- [Selenium](https://selenium-python.readthedocs.io/)

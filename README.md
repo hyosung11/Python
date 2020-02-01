@@ -583,3 +583,38 @@ $ flask run
 
 ## Section 21: Machine Learning + Data Science
 
+- AI, Machine Learning, Deep Learning, Data Science
+- Machine Learning: 
+  - given input and output, the computer creates the function to manifest the desired output
+    - functions, algorithms, models, brains, bots
+- History of Data
+  - spreadsheets
+  - Relational DB
+  - "Big Data" NoSQL e.g., mongoDB
+  - Machine Learning
+- Types of Machine Learning
+  - Supervised
+    - Classification: e.g., apples or pears
+    - Regression: e.g., track stock market prices
+  - Unsupervised
+    - Clustering: creating groups out of data points
+    - Association Rule Learning: associate different things to make predictions (as to what a customer might buy in the future)
+  - Reinforcement
+    - skill acquisition
+    - real time learning
+
+### Machine Learning 101
+
+- [Facebook ML](https://research.fb.com/blog/2018/05/the-facebook-field-guide-to-machine-learning-video-series/)
+
+![The Facebook Field Guide to Machine Learning](/images/fbml.png)
+
+### Tools in Machine Learning
+
+- [NumPy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [scikit-learn](https://scikit-learn.org/stable/)
+- [matplotlib](https://matplotlib.org/)
+- [jupyter](https://jupyter.org/)
+- [kaggle](https://www.kaggle.com/)
+

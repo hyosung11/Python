@@ -578,3 +578,5 @@ $ flask run
 ## Section 20: Automation Testing with Selenium
 
 - [Selenium](https://selenium-python.readthedocs.io/)
+- [Selenium Easy](https://www.seleniumeasy.com/test/)
+- [Cheat Sheet](http://allselenium.info/python-selenium-commands-cheat-sheet-frequently-used/)

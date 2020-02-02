@@ -624,6 +624,15 @@ $ flask run
 
 - [Convert to String](https://stackoverflow.com/questions/39684548/convert-the-string-2-90k-to-2900-or-5-2m-to-5200000-in-pandas-dataframe)
 
+### Machine Learning Steps
+
+1. Import the data - from kaggle.com
+2. Clean the data - pandas
+3. Split the data: training set, test set  (80/20)
+4. Create a Model
+5. Check the output
+6. Improve
+
 ### Machine Learning Project
 
 - [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)

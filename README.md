@@ -641,3 +641,5 @@ $ flask run
 - Model Persistence
 
 ![models](images/models.png)
+
+Finished course on Saturday, February 1, 2020

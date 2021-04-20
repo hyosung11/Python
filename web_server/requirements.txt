@@ -23,7 +23,7 @@ packaging==20.1
 Pillow==7.0.0
 pluggy==0.13.1
 pre-commit==2.0.0
-py==1.8.1
+py==1.10.0
 pycodestyle==2.5.0
 PyJWT==1.7.1
 pylint==2.4.4

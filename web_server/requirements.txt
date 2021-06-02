@@ -42,7 +42,7 @@ translate==3.5.0
 tweepy==3.8.0
 twilio==6.35.3
 twython==3.7.0
-urllib3==1.25.8
+urllib3==1.26.5
 virtualenv==16.7.9
 Werkzeug==0.16.1
 wrapt==1.11.2

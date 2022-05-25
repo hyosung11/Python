@@ -25,7 +25,7 @@ pluggy==0.13.1
 pre-commit==2.0.0
 py==1.8.1
 pycodestyle==2.5.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pyparsing==2.4.6
 PyPDF2==1.26.0
